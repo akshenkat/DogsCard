@@ -1,0 +1,23 @@
+#carousel {
+    
+    overflow: hidden;
+  }
+  
+  #carousel-image {
+    animation: slide 3s infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
